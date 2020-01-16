@@ -1,4 +1,4 @@
 os: osx
 osx_image: xcode9.4
 language: swift
-script: xcodebuild clean build test -project TravisCI.xcodeproj -scheme "TravisCI" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=13.3,name=iPhone 11 Pro" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=N
+script: xcodebuild clean build test -project TravisCI.xcodeproj -scheme "TravisCITests" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=13.3,name=iPhone 11 Pro" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO

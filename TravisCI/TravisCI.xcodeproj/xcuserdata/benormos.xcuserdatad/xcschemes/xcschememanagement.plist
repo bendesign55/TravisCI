@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TravisCITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A8BFAEA823D0383500EC35EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8BFAEBE23D0383700EC35EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8BFAEC923D0383700EC35EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
