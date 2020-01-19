@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "24044b6281b159959cb9144b358a597d"
+build_time: [1579419979, 202427000]
+inputs:
+  "/Users/benormos/travisCI/TravisCI/ViewController.swift": [9223372036, 854775807]
+  "/Users/benormos/travisCI/TravisCI/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/benormos/travisCI/TravisCI/SceneDelegate.swift": [9223372036, 854775807]
