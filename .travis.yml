@@ -10,16 +10,13 @@ before_install:
 before_script:
 	- ./scripts/add-key.sh
 	- ./scripts/update-bundle.sh
-script:
-	- xctool -workspace TravisExample.xcworkspace -scheme TravisExample -sdk iphoneos -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
+script: xcodebuild clean build test -workspace TravisCI.xcworkspace -scheme "TravisCI"
+  -sdk iphonesimulator -destination "platform=iOS Simulator,OS=13.3,name=iPhone 11
+  Pro" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
 after_success:
 	- ./scripts/sign-and-upload.sh
 after_script:
 	- ./scripts/remove-key.sh
-
-script: xcodebuild clean build test -workspace TravisCI.xcworkspace -scheme "TravisCI"
-  -sdk iphonesimulator -destination "platform=iOS Simulator,OS=13.3,name=iPhone 11
-  Pro" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
 env:
   global:
   	- APP_NAME="TravisCI"
