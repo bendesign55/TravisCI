@@ -1,6 +1,6 @@
 os: osx
 osx_image: xcode11.3
-language: swift
+language: objective-c
 cache: cocoapods
 podfile: Podfile
 before_install:
@@ -23,3 +23,4 @@ env:
     - 'DEVELOPER_NAME="iPhone Distribution: Ben Ormos (2W4Q6WY5NE)"'
     - PROFILE_NAME="TravisExample_Ad_Hoc"
     secure: q4ZbvYQv5YcHqmo7q1ti2Qdrg5RG+WgHz7mdSI9kjJ1XCbi60odJILZIlPgWg3dl6uS+OKsmsEJKKqdkCd4Ogdc+53i9E8Q0DXF5MpnR1HCrEaxhbWQdQJixnhdPrLtgH+wjQvzNemPOmrtsjx8vVG/q+1ZHCQjYlwFotTS4IzBJNZmmq00fAj9GwbFuJxEd0dDmzbSsz8zrFIK6BZ0fmeZok8igXUNsL4yeY8I7L4UVJYK12lb80r1rWtPQyXl4bgnrK45VR0NMvv36wk8Jmy/Jm2O7fAouwP1og49BetARYh/KA8nPpDib3UTrWLutIf75mPoBC0ztV/eHYzy8MBqDTh2Wkur/fi4TQuwxfy+hiDPvEfH48wWyL+q6ueqLfixXv4YZShKcKdT0pCfxrvyHzWcJ9xpebHKQBAXgLZcCuT0sDxsvVl+CUWgmaM7NaRFkeRaqOCohCWbWEC47RdyBILhISNiIt+4akePWiRk9CFdvkSfILH7LriZm5g9HbPb8gMO08M7nc1n7UTg3/OE65ZfQp3Brsfq0yM8TWAYUc2AkBC5aFtnE3THjZnDGcOocA0DHi/8d5dNkCpaX/6n+Nys/k3xFC2vGsaz+LJvkN04v6yfeQKNnDFiTt7JMbHEFMOhOkk8ahd10nTv/7CumN5rNNwGpvNCtfYzFlVY=
+
